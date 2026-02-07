@@ -1,3 +1,8 @@
+#     A
+#    ABA
+#   ABCBA
+#  ABCDCBA
+# ABCDEDCBA
 def pattern(N):
     for i in range(N):
         print(" " * (N - 1 - i), end="")
