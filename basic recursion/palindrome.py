@@ -4,6 +4,6 @@ def palindrome(s):
             if s[i]!=s[n-i-1]:
                 return False
     return True
-
+#or simply return s==s[::-1]
 s="ABCDCBA"
 print("Palindrome") if palindrome(s) else print("Not Palindrome")
