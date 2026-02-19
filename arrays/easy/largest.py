@@ -1,0 +1,2 @@
+arr = [2, 5, 1, 3, 0]
+print(max(arr))
